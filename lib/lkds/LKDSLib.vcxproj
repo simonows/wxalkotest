@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{29B967DA-0ED3-47D4-BAA7-60E9E25A0A10}</ProjectGuid>
+    <RootNamespace>LKDSLib</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.27130.2020</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\build\lkdslib\release\</OutDir>
+    <IntDir>$(SolutionDir)\build\lkdslib\release\temp\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Dev.Cpp" />
+    <ClCompile Include="Disp.Cpp" />
+    <ClCompile Include="GGSV7.Cpp" />
+    <ClCompile Include="Idea.Cpp" />
+    <ClCompile Include="IdentV7.cpp" />
+    <ClCompile Include="InfoCLB.Cpp" />
+    <ClCompile Include="KeySys.cpp" />
+    <ClCompile Include="LoadRes.Cpp" />
+    <ClCompile Include="Mes.Cpp" />
+    <ClCompile Include="NvRam.Cpp" />
+    <ClCompile Include="Pack.Cpp" />
+    <ClCompile Include="PackV7.Cpp" />
+    <ClCompile Include="PortV7.Cpp" />
+    <ClCompile Include="Pult.Cpp" />
+    <ClCompile Include="ReceivV7.Cpp" />
+    <ClCompile Include="SendV7.Cpp" />
+    <ClCompile Include="Slot.Cpp">
+      <AssemblerOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">All</AssemblerOutput>
+    </ClCompile>
+    <ClCompile Include="Sost.Cpp" />
+    <ClCompile Include="SostCLB.Cpp" />
+    <ClCompile Include="SostDZ.Cpp" />
+    <ClCompile Include="SostSens.Cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Um.Cpp" />
+    <ClCompile Include="WindV7.Cpp" />
+    <ClCompile Include="Xml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Dev.H" />
+    <ClInclude Include="..\..\include\Disp.H" />
+    <ClInclude Include="..\..\include\GGSV7.H" />
+    <ClInclude Include="..\..\include\Idea.H" />
+    <ClInclude Include="..\..\include\IdentV7.h" />
+    <ClInclude Include="..\..\include\InfoCLB.h" />
+    <ClInclude Include="..\..\include\KeySys.h" />
+    <ClInclude Include="..\..\include\LoadRes.H" />
+    <ClInclude Include="..\..\include\Mes.H" />
+    <ClInclude Include="..\..\include\NvRam.H" />
+    <ClInclude Include="..\..\include\Pack.H" />
+    <ClInclude Include="..\..\include\PackV7.H" />
+    <ClInclude Include="..\..\include\Param.H" />
+    <ClInclude Include="..\..\include\PortV7.H" />
+    <ClInclude Include="..\..\include\Pult.H" />
+    <ClInclude Include="..\..\include\ReceivV7.H" />
+    <ClInclude Include="..\..\include\SendV7.H" />
+    <ClInclude Include="..\..\include\Slot.H" />
+    <ClInclude Include="..\..\include\Sost.H" />
+    <ClInclude Include="..\..\include\SostCLB.H" />
+    <ClInclude Include="..\..\include\SostDZ.H" />
+    <ClInclude Include="..\..\include\SostSens.H" />
+    <ClInclude Include="..\..\include\Um.H" />
+    <ClInclude Include="..\..\include\WindV7.H" />
+    <ClInclude Include="..\..\include\Xml.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

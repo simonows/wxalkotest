@@ -1,0 +1,849 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_LB_CDC              "ЛБ КДК"
+    IDS_LB_54OTIS           "ЛБ 5.4 OTIS"
+    IDS_LB_54S17            "ЛБ 5.4 ШУЛК ПКЛ17"
+    IDS_LB_54S32            "ЛБ 5.4 ШУЛК ПКЛ32"
+    IDS_LB_54SULK           "ЛБ 5.4 ШУЛК"
+    IDS_LB_54UKL            "ЛБ 5.4 УКЛ"
+    IDS_LB_54RSULMOG        "ЛБ 5.4 РСУЛ Могилевлифтмаш"
+    IDS_LB_54RSULMPPL       "ЛБ 5.4 РСУЛ МППЛ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_54RSUL           "ЛБ 5.4 РСУЛ"
+    IDS_LB_55               "ЛБ 5.5"
+    IDS_LB_60LOAD           "ЛБ 6.Х Загрузчик"
+    IDS_LB_60UUL            "ЛБ 6.Х Могилевлифтмаш (УУЛ)"
+    IDS_LB_60MEL            "ЛБ 6.Х МЭЛ (СУЛ1)"
+    IDS_LB_60MPPL           "ЛБ 6.Х МППЛ"
+    IDS_LB_60MPPL2          "ЛБ 6.Х МППЛ2"
+    IDS_LB_60OTIS           "ЛБ 6.Х ОТИС"
+    IDS_LB_60S17            "ЛБ 6.Х ШУЛК17"
+    IDS_LB_60S32            "ЛБ 6.Х ШУЛК32"
+    IDS_LB_60UKL            "ЛБ 6.Х УКЛ/УЛ"
+    IDS_LB_60REL            "ЛБ 6.Х АРС"
+    IDS_LB_60SODIMAS        "ЛБ 6.Х SODIMAS"
+    IDS_LB_60LG_DI          "ЛБ 6.Х LG_DI"
+    IDS_LB_60LG_DSS         "ЛБ 6.Х SICON"
+    IDS_LB_60ESCAL          "ЛБ 6.Х Эскалатор"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_60AXEL           "ЛБ 6.Х AXEL"
+    IDS_LB_60ELEX           "ЛБ 6.Х ELEX"
+    IDS_LB_60SPUL           "ЛБ 6.Х СПУЛ"
+    IDS_LB_60THYSSEN        "ЛБ 6.Х THYSSEN"
+    IDS_LB_60OLIMP          "ЛБ 6.Х ОЛИМП"
+    IDS_LB_60DOPPLER        "ЛБ 6.Х Doppler"
+    IDS_LB_60LS3            "ЛБ 6.Х THYSSEN(LS3)"
+    IDS_LB_60EXPRESS        "ЛБ 6.X STEP"
+    IDS_LB_60BLT            "ЛБ 6.X BLT"
+    IDS_LB_60TAC50          "ЛБ 6.X THYSSEN(TAC50)"
+    IDS_LB_60LISA           "ЛБ 6.X LISA"
+    IDS_LB_60SCHINDLER      "ЛБ 6.X SCHINDLER"
+    IDS_LB_60PKL            "ЛБ 6.X ПЛК"
+    IDS_LB_60UELR           "ЛБ 6.X УЭЛР"
+    IDS_LB_60MCI            "ЛБ 6.X THYSSEN(MCI/CMC)"
+    IDS_LB_60BG15           "ЛБ 6.X BG15"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_60               "ЛБ 6.Х"
+    IDS_LB_61LOAD           "ЛБ 6.Pro Загрузчик"
+    IDS_LB_61UUL            "ЛБ 6.Pro Могилевлифтмаш (УУЛ)"
+    IDS_LB_61MEL            "ЛБ 6.Pro МЭЛ (СУЛ1)"
+    IDS_LB_61MPPL           "ЛБ 6.Pro МППЛ"
+    IDS_LB_61MPPL2          "ЛБ 6.Pro МППЛ2"
+    IDS_LB_61OTIS           "ЛБ 6.Pro ОТИС"
+    IDS_LB_61S17            "ЛБ 6.Pro ШУЛК17"
+    IDS_LB_61S32            "ЛБ 6.Pro ШУЛК32"
+    IDS_LB_61UKL            "ЛБ 6.Pro УКЛ/УЛ"
+    IDS_LB_61REL            "ЛБ 6.Pro АРС"
+    IDS_LB_61SODIMAS        "ЛБ 6.Pro SODIMAS"
+    IDS_LB_61LG_DI          "ЛБ 6.Pro LG_DI"
+    IDS_LB_61LG_DSS         "ЛБ 6.Pro SICON"
+    IDS_LB_61ESCAL          "ЛБ 6.Pro Эскалатор"
+    IDS_LB_61AXEL           "ЛБ 6.Pro AXEL"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_61ELEX           "ЛБ 6.Pro ELEX"
+    IDS_LB_61SPUL           "ЛБ 6.Pro СПУЛ"
+    IDS_LB_61THYSSEN        "ЛБ 6.Pro THYSSEN"
+    IDS_LB_61OLIMP          "ЛБ 6.Pro ОЛИМП"
+    IDS_LB_61DOPPLER        "ЛБ 6.Pro Doppler"
+    IDS_LB_61LS3            "ЛБ 6.Pro THYSSEN(LS3)"
+    IDS_LB_61EXPRESS        "ЛБ 6.Pro STEP"
+    IDS_LB_61BLT            "ЛБ 6.Pro BLT"
+    IDS_LB_61TAC50          "ЛБ 6.Pro THYSSEN(TAC50)"
+    IDS_LB_61LISA           "ЛБ 6.Pro LISA"
+    IDS_LB_61SCHINDLER      "ЛБ 6.Pro SCHINDLER"
+    IDS_LB_61PKL            "ЛБ 6.Pro ПЛК"
+    IDS_LB_61UELR           "ЛБ 6.Pro УЭЛР"
+    IDS_LB_61MCI            "ЛБ 6.Pro THYSSEN(MCI/CMC)"
+    IDS_LB_61BG15           "ЛБ 6.Pro BG15"
+    IDS_LB_61               "ЛБ 6.Pro"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_IT               "ИТ"
+    IDS_LB_IT60             "ИТ 6.X"
+    IDS_XML_ERR1            "%s элемента %s"
+    IDS_XML_ERR2            "%s параметра %s элемента %s"
+    IDS_XML_ERRAPPEND       "Ошибка при добавлении"
+    IDS_XML_ERRREAD         "Ошибка при чтении"
+    IDS_XML_ERRCREATE       "Ошибка при создании"
+    IDS_XML_ERRQI           "Ошибка при запросе интерфейса"
+    IDS_XML_ERRCREATEXML    "Ошибка при создании XML анализатора"
+    IDS_XML_ERRAPPENDCHILD  "Ошибка appendChild"
+    IDS_XML_ERRCREATEPROC   "Ошибка createProcessingInstruction"
+    IDS_XML_ERRLOADXML      "Ошибка loadXML"
+    IDS_XML_ERRFRSCHILD     "Ошибка get_firstChild"
+    IDS_XML_ERRREPLCHILD    "Ошибка replaceChild"
+    IDS_XML_ERRNEXTCHILD    "Ошибка get_nextSibling"
+    IDS_XML_ERRGETXML       "Ошибка get_xml"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_XML_ERRSAVE         "Ошибка XMLDOMSave->save"
+    IDS_XML_ERRLOAD         "Ошибка m_XMLDOM->load"
+    IDS_XML_ERRQIDOM        "Ошибка при запросе интерфейса IXMLDOMNode у IXMLDOMDocument"
+    IDS_LB_60ARKEL          "ЛБ 6.X ARKEL"
+    IDS_LB_61ARKEL          "ЛБ 6.Pro ARKEL"
+    IDS_V7_NOEND            "Не завершается "
+    IDS_V7_BREAK_CONN       "Удаленное устройство разорвало соединение"
+    IDS_V7_UNKN_IDENT       "получен пакет от неизвестного устройства %s с адреса %d.%d.%d.%d"
+    IDS_V7_UNKN_DEST        "получен пакет от устройства %s с адреса %d.%d.%d.%d на устройство %s, в конфигурации ПКЛШ имеет идентификатор %s"
+    IDS_V7_BADCRC           "Неверная контрольная сумма"
+    IDS_V7_ERRCONNCOM       " - ошибка при подключении к COM порту"
+    IDS_V7_ERRPARCOM        "Ошибка при назначении параметров COM порта"
+    IDS_V7_ERRGETPARCOM     "Ошибка при чтении параметров COM порта"
+    IDS_V7_ERRSTARTCOM      "Ошибка при запуске чтения/вывода через COM порта"
+    IDS_V7_ERRPUTCOM        "Ошибка при выводе в COM порт"
+    IDS_V7_ERRGETCOM        "Ошибка при чтении из COM порта"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_60SODQI          "ЛБ 6.X SodimasQI"
+    IDS_LB_61SODQI          "ЛБ 6.Pro SodimasQI"
+    IDS_LB_60ORONA          "ЛБ 6.X ORONA"
+    IDS_LB_61ORONA          "ЛБ 6.Pro ORONA"
+    IDS_LB_60VEGA           "ЛБ 6.X VEGA"
+    IDS_LB_61VEGA           "ЛБ 6.Pro VEGA"
+    IDS_MODE_NORMA          "нормальный режим"
+    IDS_MODE_LOADING        "погрузка"
+    IDS_MODE_FIRE           "пожарная опасность, перевозка пожарных подразделений"
+    IDS_MODE_REVISION       "ревизия"
+    IDS_MODE_DRIVMP         "управление из МП"
+    IDS_MODE_MP1            "МП1"
+    IDS_MODE_PARAM          "ввод параметров лифта"
+    IDS_MODE_MP2            "МП2"
+    IDS_MODE_CORRRUN        "корректировочный рейс"
+    IDS_MODE_MORNMODE       "утренний режим"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MODE_EVENMODE       "вечерний режим"
+    IDS_MODE_GUIDE          "с проводником"
+    IDS_MODE_REMOTEOFF      "дистанционное выключение"
+    IDS_MODE_DAMAGE         "авария"
+    IDS_MODE_SEISMIC        "сейсмическая опасность"
+    IDS_MODE_HOSPITAL       "больничный режим"
+    IDS_DEF_NAME_DISP       "Диспетчерская"
+    IDS_NOT_DEFINED         "не определен"
+    IDS_TYPDEV_LBC          "КЛШ"
+    IDS_TYPDEV_LBC_CDC      "КЛШ-КДК"
+    IDS_TYPDEV_IUC          "КУС"
+    IDS_TYPDEV_LBC_P        "КЛШ+"
+    IDS_TYPDEV_LBC_PRO      "КЛШ-Pro"
+    IDS_TYPDEV_LBC_L5       "КЛШ-Lite v5,7 моноблок"
+    IDS_TYPDEV_LBC_L7       "КЛШ-Lite v7 моноблок"
+    IDS_TYPDEV_NET          "Сеть"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TYPDEV_JLC          "КСЛ"
+    IDS_TYPDEV_RCC          "КРК"
+    IDS_TYPDEV_GSM          "GSM"
+    IDS_TYPDEV_LDP          "ЛДП"
+    IDS_TYPDEV_GDP          "ЦДП"
+    IDS_TYPDEV_CPEC         "КРЕС"
+    IDS_TYPDEV_JLC_GSM      "КСЛ+ (PSTN, GSM)"
+    IDS_TYPDEV_JLC_433      "КСЛ+ (433MHz)"
+    IDS_TYPDEV_JLC_ETH      "КСЛ+ (Ethernet)"
+    IDS_TYPDEV_CONCENTR     "Концентратор ММИ"
+    IDS_TYPDEV_JLC_24G      "КСЛ+ (2,4GHz)"
+    IDS_TYPDEV_JLCL_ETH     "КСЛ-Eth-Lite моноблок"
+    IDS_TYPDEV_JLCL_433     "КСЛ-433MHz-Lite моноблок"
+    IDS_TYPDEV_JLCL_24G     "КСЛ-2,4ГГz-Lite моноблок"
+    IDS_TYPDEV_JLCL_GSM     "КСЛ-PSTN,GSM-Lite моноблок"
+    IDS_TYPBUS_ARM          "АРМ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TYPBUS_OB_4X        "ОБЬ-4.Х"
+    IDS_TYPBUS_OB_31        "ОБЬ-3.1"
+    IDS_TYPBUS_OB_30        "ОБЬ-3.0"
+    IDS_TYPBUS_CDC          "КДК-32"
+    IDS_TYPBUS_OB_5X        "ОБЬ-5.Х"
+    IDS_TYPDEV_CODEC723     "Кодек 723.1"
+    IDS_LU_SOST_INS_KEY     "Вставлен сервисный ключ"
+    IDS_LU_SOST_INS_KEY1    "Сообщение %d (%x) станции управления"
+    IDS_LU_SOST_INS_KEY2    "Сообщение %d:%02X%02X станции управления"
+    IDS_LU_SOST_INS_KEY3    "Ожидание номера СК или данных станции"
+    IDS_LU_SOST_INS_KEY4    "Вставлен СК %u %s"
+    IDS_LU_SOST_REVERS      "Многократный реверс дверей"
+    IDS_LU_SOST_INP_MP      "Проникновение в МП"
+    IDS_LU_SOST_NO_U        "Отсутствует напряжение в цепи управления"
+    IDS_LU_SOST_KEY_STOP    "Зажата кнопка СТОП в кабине лифта"
+    IDS_LU_SOST_KEY_STOP1   "Остановлен"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LU_SOST_OPEN_ELEV   "Не закрыта дверь кабины"
+    IDS_LU_SOST_BREAK_CHAIN "Разрыв цепи безопасности"
+    IDS_LU_SOST_BAD_SENSOR  "Не сработал датчик УБ"
+    IDS_LU_SOST_SHORT_CHAIN "КЗ цепи безопасности"
+    IDS_LU_SOST_CALL        "Вызов диспетчера"
+    IDS_LU_SOST_CALL_MP     "Вызов диспетчера из МП"
+    IDS_LU_SOST_CALL_ELEV   "Вызов диспетчера из кабины"
+    IDS_LU_SOST_BAD_MOVE    "Несанкционированое движение кабины"
+    IDS_LU_SOST_DAMAGE_UKSL "Авария главного привода по УКСЛ"
+    IDS_LU_SOST_DAMAGE_DOOR "Авария привода дверей"
+    IDS_LU_SOST_INP_INNER   "Проникновение в шахту"
+    IDS_LU_SOST_INP_INNER1  " на %s,%s этажах"
+    IDS_LU_SOST_INP_INNER2  " на %s этаже"
+    IDS_LU_SOST_BAD_UB      "Неисправность УБ"
+    IDS_LU_SOST_DAMAGE_LOCK "Аварийная блокировка"
+    IDS_LU_SOST_DAMAGE_LOCK1 "Авария эскалатора"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LU_SOST_DAMAGE_LOCK2 "Авария траволатора"
+    IDS_LU_SOST_OPEN_MP     "Открыто МП"
+    IDS_LU_SOST_BETWEEN_FLOOR "Не открыты двери после движения"
+    IDS_LU_SOST_NO_JOB_DK   "Не сработал датчик ДК"
+    IDS_LU_SOST_NO_CLOSE_DOOR "Не закрыта дверь шахты по УБ"
+    IDS_LU_SOST_NO_CLOSE_DOOR1 "Нет связи с ECB"
+    IDS_LU_SOST_NO_CLOSE_DOOR2 "Отсутствует обмен с MCS"
+    IDS_LU_SOST_ON_DRIVER   "Главный привод включен"
+    IDS_LU_SOST_ON_DRIVER1  "Движение вверх"
+    IDS_LU_SOST_ON_DRIVER2  "Движение вниз"
+    IDS_LU_SOST_ON_DRIVER3  "Движение влево"
+    IDS_LU_SOST_ON_DRIVER4  "Движение вправо"
+    IDS_LU_SOST_REZ1        "РЕЗЕРВ1"
+    IDS_LU_SOST_BAD_SEMI    "Перемычка пускателя"
+    IDS_LU_SOST_LOCK_RD     "Блокировка РД без РКД"
+    IDS_LU_SOST_ASK_MP      "Уточнение вызова диспетчера - из МП"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LU_SOST_FAULT_GGS   "Неисправность тракта ГГС кабины лифта"
+    IDS_LU_SOST_STAT_LOW    "Младший бит статистики"
+    IDS_LU_SOST_STAT_HIGH   "Старший бит статистики"
+    IDS_LU_SOST_REZ29       "РЕЗЕРВ29"
+    IDS_LU_SOST_REZ30       "РЕЗЕРВ30"
+    IDS_LU_SOST_REZ31       "РЕЗЕРВ31"
+    IDS_LU_SOST_USER1       "Состояние USER1"
+    IDS_LU_SOST_USER2       "Состояние USER2"
+    IDS_LU_SOST_USER3       "Состояние USER3"
+    IDS_LU_SOST_USER4       "Состояние USER4"
+    IDS_LU_SOST_REZ_POWER   "Резервное питание ЛБ"
+    IDS_LU_SOST_VAR_VOLT    "Переменное напряжение в ЦБ"
+    IDS_LU_SOST_IDLE_HOUR   "Простой лифта 1 час"
+    IDS_LU_SOST_NO_INFORM   "Нет информации"
+    IDS_LU_SOST_NO_LINK     "Нет связи"
+    IDS_LU_SOST_FIRE_RISK   "Пожарная опасность"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LU_SOST_RESTART     "Рестарт блока"
+    IDS_LB_60TR             "ЛБ 6.0 ТР"
+    IDS_LB_61TR             "ЛБ 6 Pro ТР"
+    IDS_LB_60DMG            "ЛБ 6.0 DMG"
+    IDS_LB_61DMG            "ЛБ 6 Pro DMG"
+    IDS_LB_60MIK_EL         "ЛБ 6.0 MIK_EL"
+    IDS_LB_61MIK_EL         "ЛБ 6 Pro MIK_EL"
+    IDS_LB_60KONE           "ЛБ 6.0 KONE"
+    IDS_LB_61KONE           "ЛБ 6 Pro KONE"
+    IDS_LB_60S9             "ЛБ 6.0 S9"
+    IDS_LB_61S9             "ЛБ 6 Pro S9"
+    IDS_UDP_PORT_BUSY       "UDP порт данных уже используется"
+    IDS_CONTINUE_SAVE       ". Продолжить сохранение ?"
+    IDS_LU_SOST_BAD_BATTERY "Неисправна батарея питания"
+    IDS_LB_60HYUNDAI        "ЛБ 6.0 HYUNDAI"
+    IDS_LB_61HYUNDAI        "ЛБ 6 Pro HYUNDAI"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_60NICE           "ЛБ 6.0 NICE"
+    IDS_LB_61NICE           "ЛБ 6 Pro NICE"
+    IDS_LB_60VASSLER        "ЛБ 6.0 VASSLER"
+    IDS_LB_61VASSLER        "ЛБ 6 Pro VASSLER"
+    IDS_LB_60FST2           "ЛБ 6.0 FST2"
+    IDS_LB_61FST2           "ЛБ 6 Pro FST2"
+    IDS_LB_60CANNY          "ЛБ 6.0 CANNY"
+    IDS_LB_61CANNY          "ЛБ 6 Pro CANNY"
+    IDS_LB_60SILVER         "ЛБ 6.0 SILVER"
+    IDS_LB_61SILVER         "ЛБ 6 Pro SILVER"
+    IDS_LB_7                "ЛБ 7"
+    IDS_LB_LOAD             "Загрузчик"
+    IDS_LB_UUL              "Могилевлифтмаш (УУЛ)"
+    IDS_LB_MEL              "МЭЛ (СУЛ1)"
+    IDS_LB_MPPL             "МППЛ"
+    IDS_LB_MPPL2            "МППЛ2"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_OTIS             "ОТИС"
+    IDS_LB_S17              "ШУЛК17"
+    IDS_LB_S32              "ШУЛК32"
+    IDS_LB_UKL              "УКЛ/УЛ"
+    IDS_LB_REL              "АРС"
+    IDS_LB_SODIMAS          "SODIMAS"
+    IDS_LB_LG_DI            "LG_DI"
+    IDS_LB_LG_DSS           "SICON"
+    IDS_LB_ESCAL            "Эскалатор"
+    IDS_LB_AXEL             "AXEL"
+    IDS_LB_ELEX             "ELEX"
+    IDS_LB_SPUL             "СПУЛ"
+    IDS_LB_THYSSEN          "THYSSEN"
+    IDS_LB_OLIMP            "ОЛИМП"
+    IDS_LB_DOPPLER          "Doppler"
+    IDS_LB_LS3              "THYSSEN(LS3)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_EXPRESS          "STEP"
+    IDS_LB_BLT              "BLT"
+    IDS_LB_TAC50            "THYSSEN(TAC50)"
+    IDS_LB_LISA             "LISA"
+    IDS_LB_SCHINDLER        "SCHINDLER"
+    IDS_LB_PKL              "ПЛК"
+    IDS_LB_UELR             "УЭЛР"
+    IDS_LB_MCI              "THYSSEN(MCI/CMC)"
+    IDS_LB_ORONA            "ORONA"
+    IDS_LB_ARKEL            "ARKEL"
+    IDS_LB_BG15             "BG15"
+    IDS_LB_VEGA             "VEGA"
+    IDS_LB_SODQI            "SodimasQI"
+    IDS_LB_TR               "ТР"
+    IDS_LB_DMG              "DMG"
+    IDS_LB_MIK_EL           "MIK_EL"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_KONE             "KONE"
+    IDS_LB_S9               "S9"
+    IDS_LB_HYUNDAI          "HYUNDAI"
+    IDS_LB_NICE             "NICE"
+    IDS_LB_VASSLER          "VASSLER"
+    IDS_LB_FST2             "FST2"
+    IDS_LB_CANNY            "CANNY"
+    IDS_LB_SILVER           "SILVER"
+    IDS_TYPDEV_LBC_CM3      "КЛШ-Pro CM3"
+    IDS_TYPDEV_LBC_CM3_m    "КЛШ-Lite CM3 моноблок"
+    IDS_TYPDEV_JLC_GSM_CM3  "КСЛ CM3 (PSTN,GSM)"
+    IDS_TYPDEV_JLC_433_CM3  "КСЛ CM3 (433MHz)"
+    IDS_TYPDEV_JLC_ETH_CM3  "КСЛ CM3 (Ethernet)"
+    IDS_TYPDEV_JLC_GSM_CM3_m "КСЛ CM3 PSTN,GSM-Lite моноблок"
+    IDS_TYPDEV_JLC_433_CM3_m "КСЛ CM3 433MHz-Lite моноблок"
+    IDS_TYPDEV_JLC_ETH_CM3_m "КСЛ CM3 Eth-Lite моноблок"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_IT7              "ИТ 7.X"
+    IDS_LB_60Invalid        "ЛБ 6.0 ИНВАЛИДНЫЙ"
+    IDS_LB_60BETACTRL       "ЛБ 6.0 BETACONTROL"
+    IDS_LB_60StaGeHEL       "ЛБ 6.0 StaGeHELLAS"
+    IDS_LB_60SK6000         "ЛБ 6.0 ШК6000"
+    IDS_LB_60TKL            "ЛБ 6.0 ТКЛ"
+    IDS_LB_60SUL2010        "ЛБ 6.0 СУЛ2010"
+    IDS_LB_60Union          "ЛБ 6.0 Союз"
+    IDS_LB_61Invalid        "ЛБ 6Pro ИНВАЛИДНЫЙ"
+    IDS_LB_61BETACTRL       "ЛБ 6Pro BETACONTROL"
+    IDS_LB_61StaGeHEL       "ЛБ 6Pro StaGeHELLAS"
+    IDS_LB_61SK6000         "ЛБ 6Pro ШК6000"
+    IDS_LB_61TKL            "ЛБ 6Pro ТКЛ"
+    IDS_LB_61SUL2010        "ЛБ 6Pro СУЛ2010"
+    IDS_LB_61Union          "ЛБ 6Pro Союз"
+    IDS_LB_Invalid          "ИНВАЛИДНЫЙ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_BETACTRL         "BETACONTROL"
+    IDS_LB_StaGeHEL         "StaGeHELLAS"
+    IDS_LB_SK6000           "ШК6000"
+    IDS_LB_TKL              "ТКЛ"
+    IDS_LB_SUL2010          "СУЛ2010"
+    IDS_LB_Union            "Союз"
+    IDS_LB_60SHR            "ЛБ 6.0 ШЛ-Р"
+    IDS_LB_61SHR            "ЛБ 6Pro ШЛ-Р"
+    IDS_LB_SHR              "ШЛ-Р"
+    IDS_LB_60FT9X0          "ЛБ 6.0 FT9X0"
+    IDS_LB_61FT9X0          "ЛБ 6Pro FT9X0"
+    IDS_LB_FT9X0            "FT9X0"
+    IDS_LB_60WIPO           "ЛБ 6.0 WIPO"
+    IDS_LB_61WIPO           "ЛБ 6Pro WIPO"
+    IDS_LB_WIPO             "WIPO"
+    IDS_LB_60VESTNER        "ЛБ 6.0 KLST (VESTNER)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_61VESTNER        "ЛБ 6Pro KLST (VESTNER)"
+    IDS_LB_VESTNER          "KLST (VESTNER)"
+    IDS_LB_60KOYO           "ЛБ 6.0 KOYO"
+    IDS_LB_61KOYO           "ЛБ 6Pro KOYO"
+    IDS_LB_KOYO             "KOYO"
+    IDS_LB_60LLC            "ЛБ 6.0 LLC"
+    IDS_LB_61LLC            "ЛБ 6Pro LLC"
+    IDS_LB_LLC              "LLC"
+    IDS_LB_60KOLLMORGEN     "ЛБ 6.0 KOLLMORGEN"
+    IDS_LB_61KOLLMORGEN     "ЛБ 6Pro KOLLMORGEN"
+    IDS_LB_KOLLMORGEN       "KOLLMORGEN"
+    IDS_LB_60SECURLIFT      "ЛБ 6.0 SECURLIFT"
+    IDS_LB_61SECURLIFT      "ЛБ 6Pro SECURLIFT"
+    IDS_LB_SECURLIFT        "SECURLIFT"
+    IDS_LB_60IMEM           "ЛБ 6.0 IMEM"
+    IDS_LB_61IMEM           "ЛБ 6Pro IMEM"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_IMEM             "IMEM"
+    IDS_LB_60CARLOS_SILVA   "ЛБ 6.0 CARLOS SILVA"
+    IDS_LB_61CARLOS_SILVA   "ЛБ 6Pro CARLOS SILVA"
+    IDS_LB_CARLOS_SILVA     "CARLOS SILVA"
+    IDS_LB_60BL6            "ЛБ 6.0 BL6"
+    IDS_LB_61BL6            "ЛБ 6Pro BL6"
+    IDS_LB_BL6              "BL6"
+    IDS_LB_60WEBER          "ЛБ 6.0 WEBER"
+    IDS_LB_60iAStar         "ЛБ 6.0 iAStar"
+    IDS_LB_60GTE            "ЛБ 6.0 GTE"
+    IDS_LB_60AUTINOR        "ЛБ 6.0 AUTINOR"
+    IDS_LB_60THYSCMC        "ЛБ 6.0 THYSSEN(CMC)"
+    IDS_LB_60DAESUNG        "ЛБ 6.0 DAESUNG"
+    IDS_LB_60AS380          "ЛБ 6.0 AS380"
+    IDS_LB_60ECL1           "ЛБ 6.0 ECL1"
+    IDS_LB_60ECLIPSE        "ЛБ 6.0 ECLIPSE"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_61WEBER          "ЛБ 6Pro WEBER"
+    IDS_LB_61iAStar         "ЛБ 6Pro iAStar"
+    IDS_LB_61GTE            "ЛБ 6Pro GTE"
+    IDS_LB_61AUTINOR        "ЛБ 6Pro AUTINOR"
+    IDS_LB_61THYSCMC        "ЛБ 6Pro THYSSEN(CMC)"
+    IDS_LB_61DAESUNG        "ЛБ 6Pro DAESUNG"
+    IDS_LB_61AS380          "ЛБ 6Pro AS380"
+    IDS_LB_61ECL1           "ЛБ 6Pro ECL1"
+    IDS_LB_61ECLIPSE        "ЛБ 6Pro ECLIPSE"
+    IDS_LB_WEBER            "WEBER"
+    IDS_LB_iAStar           "iAStar"
+    IDS_LB_GTE              "GTE"
+    IDS_LB_AUTINOR          "AUTINOR"
+    IDS_LB_THYSCMC          "THYSSEN(CMC)"
+    IDS_LB_DAESUNG          "DAESUNG"
+    IDS_LB_AS380            "AS380"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_ECL1             "ECL1"
+    IDS_LB_ECLIPSE          "ECLIPSE"
+    IDS_LB_60SKG            "ЛБ 6.0 SKG"
+    IDS_LB_60ML65X          "ЛБ 6.0 ML65X"
+    IDS_LB_61SKG            "ЛБ 6Pro SKG"
+    IDS_LB_61ML65X          "ЛБ 6Pro ML65X"
+    IDS_LB_SKG              "SKG"
+    IDS_LB_ML65X            "ML65X"
+    IDS_LB_60ML60X          "ЛБ 6.0 ML60X"
+    IDS_LB_61ML60X          "ЛБ 6Pro ML60X"
+    IDS_LB_ML60X            "ML60X"
+    IDS_LB_60ISLv4          "ЛБ 6.0 ISLv4"
+    IDS_LB_61ISLv4          "ЛБ 6Pro ISLv4"
+    IDS_LB_ISLv4            "ISLv4"
+    IDS_LB_60ML50           "ЛБ 6.0 ML50"
+    IDS_LB_61ML50           "ЛБ 6Pro ML50"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_ML50             "ML50"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_COMMON_SVT      "Подключен Service Tool"
+    IDS_ERR_COMMON_FIRE     "Пожарная опасность"
+    IDS_ERR_COMMON_REV      "Ревизия"
+    IDS_ERR_COMMON_RTM      "Режим ""Удаленного терминала"""
+    IDS_ERR_COMMON_EARTHQUAKE "Землетрясение"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_00         "Нормальная работа"
+    IDS_ERR_LISA_01         "Временной режим"
+    IDS_ERR_LISA_02         "Полная загрузка кабины"
+    IDS_ERR_LISA_03         "Перегрузка кабины"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_04         "Режим погрузки"
+    IDS_ERR_LISA_05         "Ошибка дверей"
+    IDS_ERR_LISA_06         "Спец. Управление (внутр)"
+    IDS_ERR_LISA_07         "Спец. Управление (внешнее)"
+    IDS_ERR_LISA_08         "Приорит. Управление (внутр)"
+    IDS_ERR_LISA_09         "Приорит. Управление (внешнее)"
+    IDS_ERR_LISA_10         "Отключено освещение кабины"
+    IDS_ERR_LISA_11         "Installation off internal"
+    IDS_ERR_LISA_12         "Installation off external"
+    IDS_ERR_LISA_13         "Режим эвакуации"
+    IDS_ERR_LISA_14         "Перевозка пожарных подразделений (внеш)"
+    IDS_ERR_LISA_15         "Перевозка пожарных подразделений (внутр)"
+    IDS_ERR_LISA_16         "Режим обучения"
+    IDS_ERR_LISA_17         "Разрыв цепи безопасности"
+    IDS_ERR_LISA_18         "Превышено время движения"
+    IDS_ERR_LISA_19         "Repatriation run"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_20         "Режим инспекции"
+    IDS_ERR_LISA_21         "Мин. Давление (гидравлика)"
+    IDS_ERR_LISA_22         "Excess temp. 2"
+    IDS_ERR_LISA_23         "Макс. Давление (гидравлика)"
+    IDS_ERR_LISA_24         "Excess temp. 1"
+    IDS_ERR_LISA_25         "Контроль тормозов"
+    IDS_ERR_LISA_26         "Ошибка в цепи безопасности"
+    IDS_ERR_LISA_27         "Не работает"
+    IDS_LB_60PDAHL          "ЛБ 6.0 PDAHL"
+    IDS_LB_60ULGM           "ЛБ 6.0 УЛЖМ"
+    IDS_LB_61PDAHL          "ЛБ 6Pro PDAHL"
+    IDS_LB_61ULGM           "ЛБ 6Pro УЛЖМ"
+    IDS_LB_PDAHL            "PDAHL"
+    IDS_LB_ULGM             "УЛЖМ"
+    IDS_ERR_LISA_2_00_00    "Нет ошибки"
+    IDS_ERR_LISA_2_00_01    "Модуль недоступен"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_2_00_02    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_03    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_04    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_05    "Ошибка реле K5!"
+    IDS_ERR_LISA_2_00_06    "K5 постоянно под напряжением"
+    IDS_ERR_LISA_2_00_07    "разрыв SK1"
+    IDS_ERR_LISA_2_00_08    "разрыв SK1"
+    IDS_ERR_LISA_2_00_09    "разрыв SK2"
+    IDS_ERR_LISA_2_00_0A    "SK2 активен, SK1 неактивен"
+    IDS_ERR_LISA_2_00_0B    "SK4 постоянно активен"
+    IDS_ERR_LISA_2_00_0C    "Кнопка аварийной остановки на кабине"
+    IDS_ERR_LISA_2_00_0D    "Ошибка частотного преобразователя"
+    IDS_ERR_LISA_2_00_0E    "Перегрев 1"
+    IDS_ERR_LISA_2_00_0F    "Перегрев 2"
+    IDS_ERR_LISA_2_00_10    "Контроль деактивации контактора"
+    IDS_ERR_LISA_2_00_11    "Контроль активации контактора"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_2_00_12    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_13    "Движение вверх и вниз в ревизии!"
+    IDS_ERR_LISA_2_00_14    "верхний концевой выключатель"
+    IDS_ERR_LISA_2_00_15    "Нижний концевой выключатель"
+    IDS_ERR_LISA_2_00_16    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_17    "Инспекция ВВЕРХ и ВНИЗ!"
+    IDS_ERR_LISA_2_00_18    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_19    "Ревизия и Инспекция"
+    IDS_ERR_LISA_2_00_1A    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_1B    "Контроль времени поездки"
+    IDS_ERR_LISA_2_00_1C    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_1D    "Вход ВВЕРХ в Ревизии!"
+    IDS_ERR_LISA_2_00_1E    "Вход ВНИЗ в Ревизии!"
+    IDS_ERR_LISA_2_00_1F    "Вход инспекции ВВЕРХ?"
+    IDS_ERR_LISA_2_00_20    "Вход инспекции ВНИЗ?"
+    IDS_ERR_LISA_2_00_21    "Зарезервированный код ошибки"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_2_00_22    "Концевой выключатель открытия/закрытия двери 1"
+    IDS_ERR_LISA_2_00_23    "Концевой выключатель открытия/закрытия двери 2"
+    IDS_ERR_LISA_2_00_24    "Значение верхней остановки"
+    IDS_ERR_LISA_2_00_25    "Значение нижней остановки"
+    IDS_ERR_LISA_2_00_26    "5 попыток закрыть Дверь 1"
+    IDS_ERR_LISA_2_00_27    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_28    "Ошибка аккумулятора"
+    IDS_ERR_LISA_2_00_29    "с 20 января 2016 - Ошибка платы A3"
+    IDS_ERR_LISA_2_00_2A    "Последовательность фаз!"
+    IDS_ERR_LISA_2_00_2B    "Тормоз 1 не расторможен!"
+    IDS_ERR_LISA_2_00_2C    "Тормоз 1 не сработал"
+    IDS_ERR_LISA_2_00_2D    "Тормоз 2 не расторможен!"
+    IDS_ERR_LISA_2_00_2E    "Тормоз 2 не сработал!"
+    IDS_ERR_LISA_2_00_2F    "Перегрев машинного помещения"
+    IDS_ERR_LISA_2_00_30    "Максимальное давление"
+    IDS_ERR_LISA_2_00_31    "Минимальное давление!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_2_00_32    "Слишком низкая температура в машинном помещении!"
+    IDS_ERR_LISA_2_00_33    "Сброс при аварийном разблокировании"
+    IDS_ERR_LISA_2_00_34    "Аварийный блок включен"
+    IDS_ERR_LISA_2_00_35    "Активация аварийного разблокирования, нет SKx"
+    IDS_ERR_LISA_2_00_36    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_37    " SSNOT цепь безопасности"
+    IDS_ERR_LISA_2_00_38    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_39    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_3A    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_3B    "Аварийное разблокирование верхней двери шахты"
+    IDS_ERR_LISA_2_00_3C    "Аварийное разблокирование внизу шахты"
+    IDS_ERR_LISA_2_00_3D    "5 попыток закрыть Двери2"
+    IDS_ERR_LISA_2_00_3E    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_3F    "Ошибка скорости неконтролируемого движения кабины"
+    IDS_ERR_LISA_2_00_40    "неконтролируемое движение кабины"
+    IDS_ERR_LISA_2_00_41    "Заблокированная ошибка"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_2_00_42    "Освещение кабины"
+    IDS_ERR_LISA_2_00_43    "Освещение в кабине отключено"
+    IDS_ERR_LISA_2_00_44    "Не достаточно места над кабиной"
+    IDS_ERR_LISA_2_00_45    "Складной фартук Двери1"
+    IDS_ERR_LISA_2_00_46    "Магнит T1 складного фартука!"
+    IDS_ERR_LISA_2_00_47    "Вход SK фартука Двери 1!"
+    IDS_ERR_LISA_2_00_48    "Складной фартук Двери2"
+    IDS_ERR_LISA_2_00_49    "Магнит T2 складного фартука!"
+    IDS_ERR_LISA_2_00_4A    "Вход SK фартука Двери 2!"
+    IDS_ERR_LISA_2_00_4B    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_4C    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_4D    "Не достаточно места в приямке"
+    IDS_ERR_LISA_2_00_4E    "Фартук сложился"
+    IDS_ERR_LISA_2_00_4F    "Тормоз 3 не был разблокирован"
+    IDS_ERR_LISA_2_00_50    "Тормоз 3 не был заблокирован"
+    IDS_ERR_LISA_2_00_51    "Контакт защиты от падения не разомкнулся"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_2_00_52    "Контакт защиты от падения не замкнут"
+    IDS_ERR_LISA_2_00_53    "Вход/Выход не назначен!"
+    IDS_ERR_LISA_2_00_54    "Модуль недоступен!"
+    IDS_ERR_LISA_2_00_55    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_56    "Тест клапана < 24 часа"
+    IDS_ERR_LISA_2_00_57    "Неконтролируемое движение кабины вниз"
+    IDS_ERR_LISA_2_00_58    "Неконтролируемое движение кабины через клапан A3"
+    IDS_ERR_LISA_2_00_59    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_5A    "конфликт адреса входа/выхода"
+    IDS_ERR_LISA_2_00_5B    "Ошибка драйвера шины платы Lisa"
+    IDS_ERR_LISA_2_00_5C    "Слишком высокая скорость"
+    IDS_ERR_LISA_2_00_5D    "Задержка ВВЕРХ"
+    IDS_ERR_LISA_2_00_5E    "Задержка ВНИЗ"
+    IDS_ERR_LISA_2_00_5F    "Ступенька (-) при движении ВВЕРХ"
+    IDS_ERR_LISA_2_00_60    "Ступенька (+) при движении ВВЕРХ"
+    IDS_ERR_LISA_2_00_61    "Ступенька (-) при движении ВНИЗ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_2_00_62    "Ступенька (+) при движении ВНИЗ"
+    IDS_ERR_LISA_2_00_63    "Короткая задержка / Ошибка абсолютного энкодера"
+    IDS_ERR_LISA_2_00_64    "Ошибка процессора передачи данных!"
+    IDS_ERR_LISA_2_00_65    "Клапан 1 не открылся"
+    IDS_ERR_LISA_2_00_66    "Клапан 1 не закрылся"
+    IDS_ERR_LISA_2_00_67    "Клапан 2 не открылся"
+    IDS_ERR_LISA_2_00_68    "Клапан 2 не закрылся"
+    IDS_ERR_LISA_2_00_69    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_6A    "Отсутствие пакета группы"
+    IDS_ERR_LISA_2_00_6B    "Концевой выключатель инспекции"
+    IDS_ERR_LISA_2_00_6C    "Концевой выключатель инспекции"
+    IDS_ERR_LISA_2_00_6D    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_6E    "КЗ между этажной шиной и +H"
+    IDS_ERR_LISA_2_00_6F    "КЗ между этажной шиной и –H"
+    IDS_ERR_LISA_2_00_70    "КЗ между шиной кабины и +H"
+    IDS_ERR_LISA_2_00_71    "Короткое замыкание между шиной кабины и –H"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_2_00_72    "Сигнал ПОЕЗДКА/ГОТОВ в режиме ожидания"
+    IDS_ERR_LISA_2_00_73    "Сигнал ПОЕЗДКА/ГОТОВ во время поездки"
+    IDS_ERR_LISA_2_00_74    "Отсутствие сигналов ПОЕЗДКА/ГОТОВ в режиме ожидания."
+    IDS_ERR_LISA_2_00_75    "Отсутствие сигналов ПОЕЗДКА/ГОТОВ во время поездки"
+    IDS_ERR_LISA_2_00_76    "Неправильная очередность выключателей SM SZ"
+    IDS_ERR_LISA_2_00_77    "Отсутствие аварийного номера телефона"
+    IDS_ERR_LISA_2_00_78    "Соединение модема!"
+    IDS_ERR_LISA_2_00_79    "Ошибка открытия Двери1"
+    IDS_ERR_LISA_2_00_7A    "Движение кабины!"
+    IDS_ERR_LISA_2_00_7B    "Отсутствие сигнала OV на электронном клапане Ivalve A"
+    IDS_ERR_LISA_2_00_7C    "Ivalve B: отсутствует 24V"
+    IDS_ERR_LISA_2_00_7D    "SZ постоянно активен"
+    IDS_ERR_LISA_2_00_7E    "SZ постоянно отключен!"
+    IDS_ERR_LISA_2_00_7F    "SZ не активируется в зоне"
+    IDS_ERR_LISA_2_00_80    "SZ не переключается"
+    IDS_ERR_LISA_2_00_81    "Команда остановки поездки"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_2_00_82    "Центр аварийного вызова! Ошибка"
+    IDS_ERR_LISA_2_00_83    "Движение во время старта"
+    IDS_ERR_LISA_2_00_84    "Сигнал тревоги постоянно активен!"
+    IDS_ERR_LISA_2_00_85    "WDGA не доступен!"
+    IDS_ERR_LISA_2_00_86    "LIMAX не доступен!"
+    IDS_ERR_LISA_2_00_87    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_88    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_89    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_8A    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_8B    "Ревизия: двойной вход!"
+    IDS_ERR_LISA_2_00_8C    "Вход системы аварийного вызова!"
+    IDS_ERR_LISA_2_00_8D    "Сброс фартука включен!"
+    IDS_ERR_LISA_2_00_8E    "Магнитная лента абсолютного энкодера"
+    IDS_ERR_LISA_2_00_8F    "Нет сигнала готовности преобразователя"
+    IDS_ERR_LISA_2_00_90    "Отсутствие сигнала OV на электронном клапане Ivalve A"
+    IDS_ERR_LISA_2_00_91    "Ошибка входа/выхода электронного клапана IValve"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_LISA_2_00_92    "Зарезервированный код ошибки"
+    IDS_ERR_LISA_2_00_93    "Интервал обслуживания"
+    IDS_ERR_LISA_2_00_94    "Ошибка модуля 48"
+    IDS_ERR_LISA_2_00_95    "Отсутствие сигнала от внешней цепи безопасности"
+    IDS_ERR_LISA_2_00_96    "Постоянный сигнал от внешней цепи безопасности"
+    IDS_ERR_LISA_2_00_97    "переключение режима 1"
+    IDS_ERR_LISA_2_00_98    "переключение режима 2"
+    IDS_ERR_LISA_2_00_99    "переключение режима 3"
+    IDS_ERR_LISA_2_00_9A    "Истекло время дополнительного магнита замка"
+    IDS_ERR_LISA_2_00_9B    "Проблема с центральным процессором управления."
+    IDS_ERR_LISA_2_00_9C    "Отсутствие назначенных входов/ выходов для VZK"
+    IDS_ERR_LISA_2_00_9D    "Номинальная скорость не установлена"
+    IDS_ERR_LISA_2_00_9E    "Ошибка контроля VZK"
+    IDS_ERR_LISA_2_00_9F    "Контроль переключения для VZK"
+    IDS_ERR_LISA_2_00_A0    "Отсутствие модуля в приямке"
+    IDS_ERR_LISA_2_00_A1    "Кнопка аварийной остановки в приямке"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_60VIASERIE       "ЛБ 6.0 ViaSerie"
+    IDS_LB_61VIASERIE       "ЛБ 6Pro ViaSerie"
+    IDS_LB_VIASERIE         "ViaSerie"
+    IDS_TCP_PORT_BUSY       "TCP порт данных уже используется"
+    IDS_IGNORE_FROM_DEV     "Приняты данные от устройства %s от %d.%d.%d.%d:%u, устройство доступно через LKDSCloud, данные игнорируются"
+    IDS_IGNORE_FROM_CLOUD   "Приняты данные через LKDSCloud от устройства %s от %d.%d.%d.%d:%u, устройство доступно непосредственно, данные игнорируются"
+    IDS_IGNORE_FROM_NO_STATIC_IP 
+                            "Приняты данные от устройства %s от %d.%d.%d.%d, устройству назначен IP "
+    IDS_IGNORE_CHANGE_IP_PORT 
+                            "Новый IP:порт для устройства %s %d.%d.%d.%d:%u игнорируется, т.к. со времени предыдущей смены прошло < 3 сек. (сейчас %s:%u)"
+    IDS_CHANGE_IP_PORT      "Изменён IP:порт для устройства %s - новый %d.%d.%d.%d:%u старый %s:%u"
+    IDS_IGNORE_IP_PORT_TO_IDENT 
+                            "Новый IP:порт для устройства %s %d.%d.%d.%d:%u (сейчас %s:%u) - игнорируется, т.к. не известен получатель: %s"
+    IDS_NO_KNOWN_RECIPIENT  "Не известен получатель: %s -> %s от IP %d.%d.%d.%d"
+    IDS_DATA_FROM_OWN_IDENT "Принят данные от собственного идентификатора %s - %d.%d.%d.%d:%u"
+    IDS_BAD_INPUT_DATA      "Данные от %u.%u.%u.%u:%u не расшифровываются"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LB_HIDRAL        "Hidral"
+    IDS_LB_KONE_ESC      "Kone Escalator"
+    IDS_LB_DIGILIFT      "Digilift"
+    IDS_LB_GMV           "GMV"
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
