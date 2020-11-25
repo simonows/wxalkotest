@@ -69,3 +69,9 @@ The following platform-specific steps will produce a bundle in the build directo
 
 2. Perform the steps 4 and 5 from the OSX section.
 
+mkdir gtk-build
+cd gtk-build
+../configure --with-gtk3 --disable-shared --enable-unicode --with-opengl --prefix=/opt/wxwidgets-gtk3/ --with-libmspack --with-sdl
+make -j4
+make install
+
